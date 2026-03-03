@@ -1,0 +1,125 @@
+.filter-panel {
+    width: 148px;
+    min-width: 148px;
+    background-color: var(--mid-bg);
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    overflow-y: auto;
+    border-right: 1px solid var(--mid-border);
+}
+
+.filter-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    margin-bottom: 6px;
+}
+
+.filter-header-left {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.filter-gear-btn {
+    width: 22px;
+    height: 22px;
+    border: none;
+    background: none;
+    color: var(--mid-text-secondary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.filter-gear-btn:hover {
+    background: var(--mid-hover);
+}
+
+.filter-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+    transition: background 0.1s;
+    gap: 6px;
+}
+
+.filter-item:hover {
+    background: var(--mid-hover);
+}
+
+.filter-item.active {
+    background: #E1EAFF;
+}
+
+.filter-item-icon {
+    display: flex;
+    align-items: center;
+    color: var(--mid-text-secondary);
+    flex-shrink: 0;
+    width: 16px;
+    justify-content: center;
+}
+
+.filter-item.active .filter-item-icon {
+    color: var(--accent-blue);
+}
+
+.filter-item-label {
+    font-size: 13px;
+    color: var(--text-primary);
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.filter-item.active .filter-item-label {
+    color: var(--accent-blue);
+    font-weight: 500;
+}
+
+.filter-item-count {
+    font-size: 12px;
+    color: var(--mid-text-secondary);
+    flex-shrink: 0;
+}
+
+.filter-item-count.active {
+    color: var(--accent-blue);
+    font-weight: 600;
+}
+
+.filter-label-section {
+    margin-top: 4px;
+}
+
+.filter-label-header {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 4px 12px;
+    font-size: 11px;
+    color: var(--mid-text-secondary);
+    cursor: pointer;
+    user-select: none;
+}
+
+.filter-label-header:hover {
+    color: var(--text-primary);
+}
