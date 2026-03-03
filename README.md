@@ -15,7 +15,7 @@
 ## Day1
 
 <p align="center">
-  <video src="Day1.mp4" width="800" controls></video>
+  <img src="Day1.mp4" width="800">
 </p>
 
 ## 👥 Contributors
