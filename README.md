@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <b>Stack:</b> React · Vite · Node.js · Express · PostgreSQL · Socket.io<br>
+  <b>Stack (to be updated...):</b> React · Vite · Node.js · Express · PostgreSQL · Socket.io<br>
   <b>Features:</b> Real-time messaging · Direct Messages · Docs · Video Meeting · Calendar · Forms · Custom Apps<br>
   <b>Vision:</b> high-fidelity · responsive · three-kingdoms · open-source
 </p>
