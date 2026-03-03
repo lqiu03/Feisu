@@ -191,7 +191,7 @@ function App() {
       </div>
 
       <div className="app-container">
-        <Sidebar onAvatarClick={() => handleOpenUserDm(CURRENT_USER_ID)} />
+        <Sidebar onAvatarClick={() => setShowProfile(true)} />
 
         <div className="middle-column">
           <FilterPanel activeFilter={activeFilter} onFilterChange={setActiveFilter} />
