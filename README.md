@@ -16,7 +16,7 @@
 
 ## 👥 Contributors
 
-This project is a unique collaboration between human and artificial intelligence:
+This project is a collaboration between human and artificial intelligence:
 - **@lqiu03**: Human Lead
 - **Antigravity (@Antigravity-Agent)**: AI Lead Developer
 
