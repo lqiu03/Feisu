@@ -12,6 +12,11 @@
   <b>Features:</b> Real-time messaging · Direct Messages · Docs · Video Meeting · Calendar · Forms · Custom Apps<br>
 </p>
 
+## Day1
+
+<p align="center">
+  <video src="Day1.mp4" width="800" controls></video>
+</p>
 
 ## 👥 Contributors
 
