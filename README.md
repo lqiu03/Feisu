@@ -15,8 +15,9 @@
 ## Day1
 
 <p align="center">
-  <img src="Day1.mp4" width="800">
+  <video src="https://github.com/lqiu03/Feisu/raw/main/Day1.mp4" width="800" controls></video>
 </p>
+
 
 ## 👥 Contributors
 
